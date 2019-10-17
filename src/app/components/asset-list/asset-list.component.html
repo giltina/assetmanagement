@@ -1,0 +1,39 @@
+<div class="container wrapper">
+    <div class="row">
+
+        <!-- Issue table -->
+        <div class="col-md-12">
+            <div class="inner">
+                <h3>My Assets</h3>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Brand</th>
+                            <th scope="col">Supplier</th>
+                            <th scope="col">Warrant</th>
+                            <th scope="col">Purchase Date</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let assets of AssetsList">
+                            <th scope="row">{{assets.id}}</th>
+                            <td>{{assets.asset_name}}</td>
+                            <td>{{assets.asset_brand}}</td>
+                            <td>{{assets.asset_supplier}}</td>
+                            <td>{{assets.asset_warranty}}</td>
+                            <td>{{assets.asset_purchase}}</td>
+                            <td>
+                                <button type="button" class="btn btn-success btn-sm move-right" >Edit</button>
+                                <button type="button" class="btn btn-danger btn-sm" >Remove</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

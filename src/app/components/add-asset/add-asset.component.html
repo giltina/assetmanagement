@@ -1,0 +1,34 @@
+<div class="container wrapper wrapper2">
+    <div class="row">
+
+        <!-- Form -->
+        <div class="col-md-12">
+            <h3>Add Issue</h3>
+            <form [formGroup]="assetForm" (ngSubmit)="submitForm()" novalidate>
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" formControlName="asset_name" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label>Brand</label>
+                    <input type="text" formControlName="asset_brand" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label>Supplier</label>
+                    <input type="text" formControlName="asset_supplier" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label>Warranty</label>
+                    <input type="text" formControlName="asset_warranty" class="form-control" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label>Purchase Date</label>
+                    <input type="text" formControlName="asset_purchase" class="form-control" maxlength="20">
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</div>

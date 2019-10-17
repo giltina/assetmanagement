@@ -1,0 +1,34 @@
+{
+  "name": "assetsdata",
+  "plural": "assetsdata",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "asset_name": {
+      "type": "string"
+    },
+    "asset_brand": {
+      "type": "string"
+    },
+    "asset_supplier": {
+      "type": "string"
+      
+    },
+    "asset_warranty": {
+      "type": "string"
+    },
+    "asset_purchase": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

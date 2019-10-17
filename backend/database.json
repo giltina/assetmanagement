@@ -1,0 +1,28 @@
+{
+  "assetsdata": [
+    {
+      "asset_name": "Printer",
+      "asset_brand": "Hewlette Packard",
+      "asset_supplier": "First Pack",
+      "asset_warranty": "Two Years",
+      "asset_purchase": "10 December 2018",
+      "id": 1
+    },
+    {
+      "asset_name": "Laptop",
+      "asset_brand": "Apple",
+      "asset_supplier": "Apple Store",
+      "asset_warranty": "Ten Years",
+      "asset_purchase": "1 January 2019",
+      "id": 2
+    },
+    {
+      "asset_name": "Desktop",
+      "asset_brand": "Dell",
+      "asset_supplier": "Microwarehouse",
+      "asset_warranty": "10 Years",
+      "asset_purchase": "10 June 2012",
+      "id": 3
+    }
+  ]
+}
