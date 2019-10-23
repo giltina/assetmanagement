@@ -10,7 +10,7 @@ import { retry, catchError } from 'rxjs/operators';
 export class AssetService {
 
   // Base url
-  baseurl = 'http://localhost:3000';
+  baseurl = 'https://whispering-hollows-34988.herokuapp.com/api/assetsdata';
 
   constructor(private http: HttpClient) { }
 
